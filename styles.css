@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+:root {
+  --primary-color: #c7365f;
+  --secondary-color: #333;
+  --inner-color: white;
+  --hover-color: #ac2f52;
+}
+
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+}
+
+h1 {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 0.5rem;
+}
+
+main {
+  width: 30%;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+label,
+input {
+  width: 100%;
+}
+
+button {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  color: var(--inner-color);
+  background-color: var(--primary-color);
+  cursor: pointer;
+}
+button:hover {
+  background-color: var(--hover-color);
+  transition: 0.3s;
+}
+
+label,
+input,
+button {
+  display: block;
+  margin: auto;
+  font-size: 1.2rem;
+}
+
+label {
+  margin-bottom: 0.5rem;
+}
+
+input {
+  margin-bottom: 1rem;
+  border-style: solid;
+  border-color: var(--primary-color);
+  color: var(--inner-color);
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+  outline: none;
+  background-color: var(--secondary-color);
+}
+
+::placeholder {
+  color: var(--inner-color);
+}
+
+.message-to-user {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+footer {
+  background-color: var(--primary-color);
+  padding: 1rem 1rem;
+  text-align: center;
+  color: var(--secondary-color);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer-header {
+  font-size: larger;
+  margin: 0.5rem;
+}
+
+.footer-links {
+  color: var(--secondary-color);
+  margin: 0.5rem;
+  display: inline;
+  list-style: none;
+}
+
+.footer-links .link {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.tenor-gif-embed {
+  width: 10%;
+}
